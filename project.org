@@ -1,0 +1,42 @@
+* Header                                                           :noexport:
+
+  #+MACRO: name head_fixation_controller
+  #+MACRO: version 1.0
+  #+MACRO: license BSD, Open-Source Hardware
+  #+MACRO: url https://github.com/janelia-modular-devices/head_fixation_controller.git
+  #+AUTHOR: Peter Polidoro
+  #+EMAIL: peterpolidoro@gmail.com
+
+* Description
+
+  This device controls the head fixation rig for the smart cages.
+
+* Usage Instructions
+
+  - The...
+
+* Build Instructions
+
+  - This...
+
+  | Head Fixation Rig | MOTORS DB-25 | Stepper Controller |
+  |-------------------+--------------+--------------------|
+  | MOTOR 0 BLACK     |              | MOTOR 0 A+         |
+  | MOTOR 0 GREEN     |              | MOTOR 0 A-         |
+  | MOTOR 0 RED       |              | MOTOR 0 B+         |
+  | MOTOR 0 BLUE      |              | MOTOR 0 B-         |
+  | MOTOR 1 BLACK     |              | MOTOR 1 A+         |
+  | MOTOR 1 GREEN     |              | MOTOR 1 A-         |
+  | MOTOR 1 RED       |              | MOTOR 1 B+         |
+  | MOTOR 1 BLUE      |              | MOTOR 1 B-         |
+
+  | Head Fixation Rig | SENSORS DB-25 | Stepper Controller |
+  |-------------------+---------------+--------------------|
+  | MOTOR 0 BLACK     |               | MOTOR 0 A+         |
+  | MOTOR 0 GREEN     |               | MOTOR 0 A-         |
+  | MOTOR 0 RED       |               | MOTOR 0 B+         |
+  | MOTOR 0 BLUE      |               | MOTOR 0 B-         |
+  | MOTOR 1 BLACK     |               | MOTOR 1 A+         |
+  | MOTOR 1 GREEN     |               | MOTOR 1 A-         |
+  | MOTOR 1 RED       |               | MOTOR 1 B+         |
+  | MOTOR 1 BLUE      |               | MOTOR 1 B-         |
